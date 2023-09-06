@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:ital,wght@0,300;0,400;1,400&family=Tektur&display=swap');
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    height: 10%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 227, 231);
+    font-family: "Roboto-Italic", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+.header--main{
+    width: 100%;
+    margin: 0 0 1% 10%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 200px;
+    line-height: 35px;
+}
+.logo img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+}
+.contacts{
+    font-size: 30px;
+}
+.header--buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 60%;
+}
+.header--buttons button{
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    height: 12%;
+    width: 88px;
+    border-radius: 5px;
+}
+.b-switch{
+    border: 1px solid black;
+
+}
+.tg-write{
+    position: relative;
+    border: none;
+    left: 8%;
+    background-color: rgb(56, 193, 29);
+}
+ .midle-block{
+    width: 44%;
+}
+.right-block{
+    width: 30%;
+} 
+.container{
+    width: 80%;
+    margin: 5% 0% 5% 20%;
+    display: flex;
+    flex-direction: row;
+}
+.main-message-midle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-message-right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main--value-text-midle{
+    background-color: white;
+    margin: 0 7% 0 0;
+    margin-bottom: 5%;
+    padding: 20px 20px;
+}
+.main--value-text-right{
+    background-color: white;
+    margin: 0;
+    margin-bottom: 5%;
+    padding: 10px 20px;
+}
+.main--value-text-midle p, .main--value-text-right p{
+    line-height: 23px;
+}
+.grey-text{
+    color: grey;
+}
+.grey-opacity-text{
+    color: grey;
+    opacity: 70%;
+}
+.list-projects{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px 20px; */
+}
+.list--title{
+    display: flex;
+    flex-direction: row;
+}
+.b-open-source{
+    height: 2.2%;
+    background-color: rgb(0, 168, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8%;
+    position: relative;
+    top: 18.5px;
+    left: 12px;
+}
+.share{
+    color: rgb(120, 202, 120);
+}
+.b-more-github{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(78, 151, 197);
+    color: white;
+    font-size: 17px;
+    padding: 7.5px 3.5px;
+}
+.name-line{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.name-line h3{
+    width: 60%;
+}
+.line{
+    border: 1px solid black;
+    background-color: rgb(223,223,223);
+    width: 96%;
+}
+.right{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.line-blocks{
+    display: flex;
+    flex-direction: row;
+}
+.green-block{
+    width: 25%;
+    padding: 3.2% 0;
+    background-color: rgb(120, 202, 120);
+}
+.empty-block{
+    width: 100%;
+    padding: 3.2% 0;
+    background-color: rgb(223,223,223);
+}
+.fa-quote-left{
+    font-size: 20px;
+}
+.authors{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-green-line{
+    background-color: rgb(120, 202, 120);
+    padding: 25px 4px;
+    height: 80%;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+}
+.content-sides p{
+    margin: 3% 2.5%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.lang-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-carts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+}
+.cart{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+    font-size: 23px;
+}
+footer{
+    background-color: rgb(0,139, 139);
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 5%;
+    padding: 4.1% 0 ;
+}
