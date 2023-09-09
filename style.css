@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:ital,wght@0,300;0,400;1,400&family=Tektur&display=swap');
 
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     background-color: white;
     display: flex;
     flex-direction: row;
     width: 100%;
-    position: relative;
-    height: 10%;
+    height: 15%;
+    z-index: 10;
 }
 body{
     margin: 0;
