@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My potfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link id="theme" rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
@@ -24,8 +24,14 @@
                     </div>
                 </div>
                 <div class="header--buttons">
-                    <button class="b-switch" onclick="button_click(this)">Switch</button>
-                    <button class="tg-write" onclick="button_click(this)"><i class="fa-brands fa-telegram"></i> Написать</button>
+                    <div class="header--buttons-lvl-line">
+                        <button class="switch-theme-btn" id="switch_btn">Switch theme</button>
+                    </div>
+                    <div class="header--buttons-lvl-line-bottom">
+                        <button class="b-switch" onclick="button_click(this)">Switch</button>
+                        <button onclick="button_click(this)" class="tg-write"><i class="fa-brands fa-telegram"></i> Написать</button>
+                    </div>
+                    
                 </div>
             </div>
         </header>
@@ -221,11 +227,11 @@
                 <p>Описано по Кудинове Анне<br>
                     Сделано Кудиновом Игорём</p>
             </div>
-            <div class="cart">
+            <div id="hidden" class="cart">
                 Музыка через мой микрофон с моим голосом
-                <audio controls src="Recording.mp3"></audio>
+                <audio class="audio-block" controls src="Recording.mp3"></audio>
                 Музыка просто с моим голосом
-                <audio controls src="Recording2.mp3"></audio>
+                <audio class="audio-block" controls src="Recording2.mp3"></audio>
             </div>
         </div>
         <div class="date">
