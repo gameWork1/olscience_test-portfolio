@@ -75,7 +75,7 @@
         flex-direction: column;
     }
 }
-@media (max-width:1285px){
+@media (max-width:980px){
     header{
         position: sticky;
         top: 0;
