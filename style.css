@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:ital,wght@0,300;0,400;1,400&family=Tektur&display=swap');
+:root{
+    --header: #FFC573;
+    --body: #FF9500;
+    --footer: #BF8430;
+}
 
 header{
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: var(--header);
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -13,7 +18,8 @@ header{
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(218, 227, 231);
+    background-color: var(--body);
+    /* rgb(218, 227, 231) */
     font-family: "Roboto", sans-serif;
 }
 a{
@@ -118,14 +124,15 @@ button{
     flex-direction: column;
     width: 100%;
 }
+.main--value-text-midle, .main--value-text-right{
+    background-color: var(--header);
+}
 .main--value-text-midle{
-    background-color: white;
     margin: 0 7% 0 0;
     margin-bottom: 5%;
     padding: 20px 20px;
 }
 .main--value-text-right{
-    background-color: white;
     margin: 0;
     margin-bottom: 5%;
     padding: 10px 20px;
@@ -258,7 +265,8 @@ button{
     font-size: 23px;
 }
 footer{
-    background-color: rgb(0,139, 139);
+    background-color: var(--footer);
+    /* rgb(0,139, 139) */
     text-align: center;
     width: 100%;
     color: white;

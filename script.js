@@ -13,3 +13,14 @@ switchMode.onclick = function () {
         theme.href = "style.css";
     }
 }
+function showHideBtn(event){
+    let btns = document.querySelectorAll("#hidden");
+    btns.forEach(btn => {
+        
+        if(btn.classList.contains("hidden")){
+            btn.classList.remove("hidden");
+        }else{
+            btn.classList.add("hidden");
+        }
+    });
+}
