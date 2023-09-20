@@ -1,5 +1,10 @@
 // var button = document.getElementsByClassName(".b-more-github");
 // button.onclick = button_click();
+document.querySelectorAll("#hidden").forEach(btn => {
+    if(!btn.classList.contains("hidden")){
+        btn.classList.add("hidden");
+    }
+});
 function button_click(event){
     alert("Ещё не работает")
 }

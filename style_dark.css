@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:ital,wght@0,300;0,400;1,400&family=Tektur&display=swap');
 
 :root{
-    --header: #E2AF63;
-    --body: #E6951B;
-    --footer: #BF8430;
+    --header: rgb(17, 17, 17);
+    --body: rgb(55, 59, 60);
+    --message-block: black;
+    --footer: rgb(46, 122,122);
 }
 
 
@@ -23,13 +24,19 @@ body{
     background-color: var(--body);
     /* rgb(218, 227, 231) */
     font-family: "Roboto", sans-serif;
-}
+    color: white;
+}   
 a{
     text-decoration: none;
     color: black;
 }
 button{
     cursor: pointer;
+    filter: brightness(87%);
+}
+button:hover{
+    transition: all 0.3s;
+    filter: brightness(95%);
 }
 .header--main{
     width: 100%;
@@ -122,7 +129,7 @@ button{
     width: 100%;
 }
 .main--value-text-midle, .main--value-text-right{
-    background-color: var(--header);
+    background-color: var(--message-block);
 }
 .main--value-text-midle{
     margin: 0 7% 0 0;

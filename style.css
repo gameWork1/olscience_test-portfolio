@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:ital,wght@0,300;0,400;1,400&family=Tektur&display=swap');
 :root{
-    --header: #FFC573;
-    --body: #FF9500;
-    --footer: #BF8430;
+    --header: white;
+    --body: rgb(218, 227, 231);
+    --message-block: white;
+    --footer: rgb(0,139, 139);
 }
 
 header{
@@ -28,6 +29,10 @@ a{
 }
 button{
     cursor: pointer;
+}
+button:hover{
+    transition: all 0.3s;
+    filter: brightness(90%);
 }
 .header--main{
     width: 100%;
@@ -125,7 +130,7 @@ button{
     width: 100%;
 }
 .main--value-text-midle, .main--value-text-right{
-    background-color: var(--header);
+    background-color: var(--message-block);
 }
 .main--value-text-midle{
     margin: 0 7% 0 0;
