@@ -29,3 +29,6 @@ function showHideBtn(event){
         }
     });
 }
+function openGithub(){
+    window.open("https://github.com/gameWork1/olscience_test-portfolio", "_blank");
+}
